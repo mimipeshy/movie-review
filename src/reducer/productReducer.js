@@ -1,4 +1,4 @@
-import { ActionTypes } from '../constants/action-types';
+import ActionTypes from '../constants/ActionTypes';
 
 const initialState = {
   product: [{
@@ -7,7 +7,8 @@ const initialState = {
     category: 'fullstack',
   }],
 };
-const productReducer = (state, { type, payload }) => {
+
+const productReducer = (state = initialState, { type }) => {
   switch (type) {
     case ActionTypes.SET_PRODUCTS:
       return state;
