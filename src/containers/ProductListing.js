@@ -11,7 +11,7 @@ const ProductListing = () => {
       .catch((err) => {
         console.log('Err', err);
       });
-    console.log(response);
+    console.log(response.data);
   };
   useEffect(() => {
     fetchProducts();
