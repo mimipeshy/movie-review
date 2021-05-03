@@ -3,8 +3,11 @@ import ActionTypes from '../constants/ActionTypes';
 const initialState = {
   product: [{
     id: 1,
-    title: 'peris',
-    category: 'fullstack',
+    title: '...',
+    price: '...',
+    category: '...',
+    description: '...',
+    image: '...',
   }],
 };
 

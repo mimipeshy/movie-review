@@ -1,8 +1,27 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import axios from 'axios';
+import { useSelector } from 'react-redux';
+import ProductComponent from './ProductComponent';
 
-const ProductListing = () => (
-  <div className="product-listing">
-    <h4>Product Listing  </h4>
-  </div>
-);
+const ProductListing = () => {
+  const products = useSelector((state) => state);
+  const fetchProducts = async () => {
+    const response = await axios
+      .get('https://fakestoreapi.com/products')
+      .catch((err) => {
+        console.log('Err', err);
+      });
+    console.log(response);
+  };
+  useEffect(() => {
+    fetchProducts();
+  });
+  console.log(products);
+
+  return (
+    <div className="product-listing">
+      <ProductComponent />
+    </div>
+  );
+};
 export default ProductListing;
