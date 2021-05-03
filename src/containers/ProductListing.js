@@ -11,7 +11,7 @@ const ProductListing = () => {
       .catch((err) => {
         console.log('Err', err);
       });
-    console.log(response);
+    console.log(response.data);
   };
   useEffect(() => {
     fetchProducts();
@@ -19,7 +19,7 @@ const ProductListing = () => {
   console.log(products);
 
   return (
-    <div className="product-listing">
+    <div className="ui grid container">
       <ProductComponent />
     </div>
   );
