@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 
 const ProductComponent = () => {
   const products = useSelector((state) => state.allProducts.products);
-  const { title } = products;
+  // const { title } = products;
   return (
     <div className="four comumn wide">
       <div className="ui link cards">
@@ -14,9 +14,9 @@ const ProductComponent = () => {
           <div className="content">
             content
           </div>
-          <div className="header">
+          {/* <div className="header">
             {title}
-          </div>
+          </div> */}
         </div>
       </div>
       <h4>Product Component</h4>
