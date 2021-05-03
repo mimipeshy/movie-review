@@ -6,7 +6,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import {
   selectedProduct,
   removeSelectedProduct,
-} from '../actions/ProductActions';
+} from '../actions/productsActions';
 
 const ProductDetails = () => {
   const { productId } = useParams();
@@ -18,7 +18,9 @@ const ProductDetails = () => {
   const fetchProductDetail = async (id) => {
     const response = await axios
       .get(`https://fakestoreapi.com/products/${id}`)
-      .catch((err) => console.log('Err: ', err));
+      .catch((err) => {
+        console.log('Err: ', err);
+      });
     dispatch(selectedProduct(response.data));
   };
 
@@ -43,7 +45,7 @@ const ProductDetails = () => {
               <div className="column rp">
                 <h1>{title}</h1>
                 <h2>
-                  <a className="ui teal tag label" href="">
+                  <a className="ui teal tag label">
                     $
                     {price}
                   </a>
