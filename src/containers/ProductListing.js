@@ -1,18 +1,15 @@
 import React, { useEffect } from 'react';
 import axios from 'axios';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { setProducts } from '../actions/productsActions';
 import ProductComponent from './ProductComponent';
+import Filter from './ProductFilter';
 
 const ProductPage = () => {
-  const products = useSelector((state) => state.allProducts.products);
   const dispatch = useDispatch();
   const fetchProducts = async () => {
     const response = await axios
-      .get('https://fakestoreapi.com/products')
-      .catch((err) => {
-        console.log('Err: ', err);
-      });
+      .get('https://fakestoreapi.com/products');
     dispatch(setProducts(response.data));
   };
 
@@ -20,10 +17,12 @@ const ProductPage = () => {
     fetchProducts();
   }, []);
 
-  console.log('Products :', products);
   return (
     <div className="ui grid container">
-      <ProductComponent />
+      <div className="ui row container">
+        <Filter />
+        <ProductComponent />
+      </div>
     </div>
   );
 };
