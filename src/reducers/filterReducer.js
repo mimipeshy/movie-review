@@ -1,9 +1,11 @@
 import ActionTypes from '../constants/action-types';
 
-const filterReducer = (state = 'All', action) => {
+const initialState = { items: [], filteredItems: [], category: '' };
+
+const filterReducer = (state = initialState, action) => {
   switch (action.type) {
-    case ActionTypes.CHANGE_FILTER:
-      return action.payload;
+    case ActionTypes.SORT_BY_CATEGORY:
+      return { ...state, filteredItems: action.payload.items, category: action.payload.category };
     default:
       return state;
   }
