@@ -19,7 +19,7 @@ export const fetchMovies = (text) => (dispatch) => {
       type: FETCH_MOVIES,
       payload: response.data,
     }))
-    .catch((err) => console.log(err));
+    .catch((err) => (err));
 };
 
 export const fetchMovie = (id) => (dispatch) => {
@@ -29,7 +29,7 @@ export const fetchMovie = (id) => (dispatch) => {
       type: FETCH_MOVIE,
       payload: response.data,
     }))
-    .catch((err) => console.log(err));
+    .catch((err) => (err));
 };
 
 export const setLoading = () => ({
