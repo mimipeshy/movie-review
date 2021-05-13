@@ -6,7 +6,7 @@ import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 import Landing from './components/home/Landing';
 import Movie from './components/home/Movie';
-import store from './store';
+import store from './store/store';
 
 const App = () => (
   <Provider store={store}>
