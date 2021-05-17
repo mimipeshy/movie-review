@@ -1,9 +1,4 @@
 <p align="center">
-    <img src=""
-        height="230">
-</p>
-
-<p align="center">
     <h1 align="center"> Catalogue of Movie Reviews  </h1>    
 </p>
 
