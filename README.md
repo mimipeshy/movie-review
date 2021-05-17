@@ -25,9 +25,7 @@
     <a href="">View Demo</a>   &#10023;  
     <a href="https://github.com/mimipeshy/movie-review/issues">Report Bug</a>    &#10023;
     <a href="#Getting-Started">Getting Started</a> &#10023; <a href="#Install">Installing</a> &#10023;
-    <a href="#Extra-Feature">Extra Feature</a> &#10023;
-    <a href="#Screenshots-of-the-App">Screenshots of the App</a> &#10023;
-    <a href="#Authors">Author</a> &#10023;
+   <a href="#Authors">Author</a> &#10023;
     
   </p>
 
