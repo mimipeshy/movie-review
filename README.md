@@ -117,7 +117,7 @@ Listening on tcp://127.0.0.1:3000
 
 <br/>
 
-click on the link to watch [live version]()
+click on the link to watch [live version](https://perisreview.netlify.app/#/)
 
 <br/>
 
@@ -133,25 +133,11 @@ click on the link to watch software development [video 3]()
 
 <br/>
 
-
-
-## Screenshots of the App
-
-
-<img src=""/>
-<br/>
-<img src=""/>
-
-<br/>
-<img src=""/>
-
-
-
 ## Contributing
 
 This project was created for educational purposes as part of the Microverse web development curriculum; contributing is not accepted.
 
-Feel free to check the [issues page]().
+Feel free to check the [issues page](https://github.com/mimipeshy/movie-review/issues).
 
 
 ## Authors
@@ -168,15 +154,10 @@ Feel free to check the [issues page]().
 
 Give a ⭐️ if you like this project!
 
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
 ## Acknowledgments
 
 * [Creative Commons ](https://creativecommons.org/licenses/by-nc/4.0/)
 
 * [behance.net ](https://www.behance.net/gallery/24531031/Pimp-my-DOG-Online-store-E-commerse-project)
 
-* [Fake Store API](https://fakestoreapi.com/)
+* [OMDB API](http://www.omdbapi.com/)
