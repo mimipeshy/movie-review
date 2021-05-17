@@ -15,8 +15,7 @@
     "redux-devtools-extension": "^2.13.9",
     "redux-thunk": "^2.3.0"
   },
-  "scripts": {
-    "deploy": "npm run build&&gh-pages -d build",
+  "scripts": {    
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
