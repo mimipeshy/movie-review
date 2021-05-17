@@ -44,10 +44,6 @@ This application was build using <b> React & Redux </b> you can find the full re
 
 <br/>
 
-<img src=""/>
-
-<br/>
-
 ## Getting Started
 
 This project was built using React and Redux version 17, it is a web application and for running on your local environment you should follow these guidelines.
