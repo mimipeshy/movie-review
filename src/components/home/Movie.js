@@ -95,10 +95,10 @@ Movie.propTypes = {
   fetchMovie: propTypes.func.isRequired,
   setLoading: propTypes.func.isRequired,
   match: propTypes.string.isRequired,
-  loading: propTypes.string.isRequired,
+  loading: propTypes.bool.isRequired,
 };
 const mapStateToProps = (state) => ({
-  loading: state.movies.loading,
+  // loading: state.movies.loading,
   movie: state.movies.movie,
 });
 

@@ -23,4 +23,5 @@ const mapStateToProps = (state) => ({
   loading: state.movies.loading,
 });
 
+export { Landing as LandingUnwrapped };
 export default connect(mapStateToProps)(Landing);

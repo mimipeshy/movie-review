@@ -21,8 +21,10 @@ const MoviesContainer = (props) => {
 MoviesContainer.propTypes = {
   movies: propTypes.objectOf(propTypes.any).isRequired,
 };
+
 const mapStateToProps = (state) => ({
   movies: state.movies.movies,
+  loading: state.movies.loading,
 });
 
 export default connect(mapStateToProps)(MoviesContainer);
