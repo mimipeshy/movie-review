@@ -1,4 +1,8 @@
 <p align="center">
+    <img src="./img.png"
+        height="230">
+</p>
+<p align="center">
     <h1 align="center"> Catalogue of Movie Reviews  </h1>    
 </p>
 
@@ -22,7 +26,7 @@
     <a href="https://github.com/mimipeshy/movie-review.git"><strong>Explore this project »</strong></a>
     <br />
     <br />&#10023;
-    <a href="">View Demo</a>   &#10023;  
+    <a href="https://perisreview.netlify.app/#/">View Demo</a>   &#10023;  
     <a href="https://github.com/mimipeshy/movie-review/issues">Report Bug</a>    &#10023;
     <a href="#Getting-Started">Getting Started</a> &#10023; <a href="#Install">Installing</a> &#10023;
    <a href="#Authors">Author</a> &#10023;
@@ -110,15 +114,15 @@ click on the link to watch [live version](https://perisreview.netlify.app/#/)
 
 <br/>
 
-click on the link to watch project description [video 1]()
+click on the link to watch project description [video 1](https://www.loom.com/share/ba5c4cd66e844ea7b33993b9cd4a3ce4)
 
 <br/>
 
-click on the link to watch concepts review [video 2]()
+click on the link to watch concepts review [video 2](https://www.loom.com/share/9a5193f3453049d6a81ba917f1512c13)
 
 <br/>
 
-click on the link to watch software development [video 3]()
+click on the link to watch software development [video 3](https://www.loom.com/share/b1a90cae0d2b46d9aea5fa689b9803bf)
 
 <br/>
 
