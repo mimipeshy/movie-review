@@ -6,10 +6,11 @@ import Moviecard from '../../components/MovieCard';
 
 const MoviesContainer = (props) => {
   const { movies } = props;
+  const { Response, Search } = movies;
   let content = '';
 
-  content = movies.Response === 'True'
-    ? movies.Search.map((movie, index) => (
+  content = Response === 'True'
+    ? Search.map((movie, index) => (
       <Moviecard key={index} movie={movie} />
     ))
     : null;
