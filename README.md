@@ -1,70 +1,156 @@
-# Getting Started with Create React App
+<p align="center">
+    <img src="./img.png"
+        height="230">
+</p>
+<p align="center">
+    <h1 align="center"> Catalogue of Dog Clothes </h1>    
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+    <h2 align="center"> This is a movie review website where users can search for their favorite movies and get a short summary of each movie</h2>    
+</p>
 
-## Available Scripts
 
-In the project directory, you can run:
+<p align="center">
+    <a href="https://img.shields.io/badge/Microverse-blueviolet" alt="Contributors">
+        <img src="https://img.shields.io/badge/Microverse-blueviolet" /></a>
+    <a href="https://www.w3schools.com/js/js_es6.asp" alt="JavaScript">
+        <img src="https://img.shields.io/badge/JavaScript-6.0.0-yellowgreen" /></a>
+    <a href="https://webpack.js.org/" alt="Webpack">
+        <img src="https://img.shields.io/badge/Webpack%204-4.0.0-lightgrey" /></a>      
+   
+</p>
 
-### `yarn start`
+  <p align="center">    
+    <br />
+    <a href="https://github.com/mimipeshy/movie-review.git"><strong>Explore this project »</strong></a>
+    <br />
+    <br />&#10023;
+    <a href="https://perisreview.netlify.app/#/">View Demo</a>   &#10023;  
+    <a href="https://github.com/mimipeshy/movie-review/issues">Report Bug</a>    &#10023;
+    <a href="#Getting-Started">Getting Started</a> &#10023; <a href="#Install">Installing</a> &#10023;
+   <a href="#Authors">Author</a> &#10023;
+    
+  </p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<br/>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+This application was build using <b> React & Redux </b> you can find the full requirements   <a href="https://www.notion.so/Catalogue-of-Dog-Clothes-8bf1512b8ab34fa28848beb8ab698a32" alt="Requirements">here</a>. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+<br/>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This project was built using React and Redux version 17, it is a web application and for running on your local environment you should follow these guidelines.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Ruby 17.0.0
+- Redux 4.0.5
+- Git
+- React 
+- Bootstrap 
+- React Redux
+- OMDB Api Key
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Setup
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+The project repository can be found in [GitHub link](git@github.com:mimipeshy/movie-review.git) or just clone the project using this command. 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+Using SSH 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# git clone  git@github.com:mimipeshy/movie-review.git
 
-### Code Splitting
+Using HTTPS
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# git clone https://github.com/mimipeshy/movie-review.git
 
-### Analyzing the Bundle Size
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
++ Open terminal on your workspace with
 
-### Making a Progressive Web App
+```
+cd /home/workspace/movie-review
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## Install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+To get started with the app, clone the repo, and then install the needed packages using yarn or npm:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```
+# npm install or yarn install
+```
 
-### `yarn build` fails to minify
+to start the local application run:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+# npm start
+```
+
+
+### Usage
+
+To watch the local version of this project check on your browser for the link 
+
+```
+Listening on tcp://127.0.0.1:3000
+```
+
+<br/>
+
+## Watch the Live Version
+
+<br/>
+
+click on the link to watch [live version](https://perisreview.netlify.app/#/)
+
+<br/>
+
+click on the link to watch project description [video 1](https://www.loom.com/share/ba5c4cd66e844ea7b33993b9cd4a3ce4)
+
+<br/>
+
+click on the link to watch concepts review [video 2](https://www.loom.com/share/9a5193f3453049d6a81ba917f1512c13)
+
+<br/>
+
+click on the link to watch software development [video 3](https://www.loom.com/share/b1a90cae0d2b46d9aea5fa689b9803bf)
+
+<br/>
+
+## Contributing
+
+This project was created for educational purposes as part of the Microverse web development curriculum; contributing is not accepted.
+
+Feel free to check the [issues page](https://github.com/mimipeshy/movie-review/issues).
+
+
+## Authors
+
+
+👤 **Peris Ndanu**
+
+- GitHub: [@mimipeshy](https://github.com/mimipeshy)
+- Twitter: [@pygirl254](https://twitter.com/pygirl254)
+- LinkedIn: [peris-ndanu](https://www.linkedin.com/in/peris-ndanu-405083193/)
+
+
+### Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+* [Creative Commons ](https://creativecommons.org/licenses/by-nc/4.0/)
+
+* [behance.net ](https://www.behance.net/gallery/24531031/Pimp-my-DOG-Online-store-E-commerse-project)
+
+* [OMDB API](http://www.omdbapi.com/)
