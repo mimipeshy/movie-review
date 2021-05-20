@@ -14,53 +14,49 @@ class Movie extends Component {
 
   render() {
     const { loading, movie } = this.props;
-    const {
-      Poster, Title, Genre, Released, Rated, imdbRating, Director, Writer, Actors, Plot, imdbID,
-    } = movie;
-
     const movieInfo = (
       <div className="container">
         <div className="row">
           <div className="col-md-4 card card-body">
-            <img src={Poster} className="thumbnail" alt="Poster" />
+            <img src={movie.Poster} className="thumbnail" alt="Poster" />
           </div>
           <div className="col-md-8">
-            <h2 className="mb-4">{Title}</h2>
+            <h2 className="mb-4">{movie.Title}</h2>
             <ul className="list-group">
               <li className="list-group-item">
                 <strong>Genre:</strong>
                 {' '}
-                {Genre}
+                {movie.Genre}
               </li>
               <li className="list-group-item">
                 <strong>Released:</strong>
                 {' '}
-                {Released}
+                {movie.Released}
               </li>
               <li className="list-group-item">
                 <strong>Rated:</strong>
                 {' '}
-                {Rated}
+                {movie.Rated}
               </li>
               <li className="list-group-item">
                 <strong>IMDB Rating:</strong>
                 {' '}
-                {imdbRating}
+                {movie.imdbRating}
               </li>
               <li className="list-group-item">
                 <strong>Director:</strong>
                 {' '}
-                {Director}
+                {movie.Director}
               </li>
               <li className="list-group-item">
                 <strong>Writer:</strong>
                 {' '}
-                {Writer}
+                {movie.Writer}
               </li>
               <li className="list-group-item">
                 <strong>Actors:</strong>
                 {' '}
-                {Actors}
+                {movie.Actors}
               </li>
             </ul>
           </div>
@@ -69,10 +65,10 @@ class Movie extends Component {
           <div className="card card-body bg-dark my-5 text-light">
             <div className="col-md-12">
               <h3>About </h3>
-              {Plot}
+              {movie.Plot}
               <hr />
               <a
-                href={`https://www.imdb.com/title/${imdbID}`}
+                href={`https://www.imdb.com/title/${movie.imdbID}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-primary"
@@ -94,12 +90,16 @@ class Movie extends Component {
 }
 
 Movie.propTypes = {
-  movie: propTypes.oneOf([propTypes.object, propTypes.array]).isRequired,
+  movie: propTypes.oneOfType([
+    propTypes.array,
+    propTypes.object,
+  ]).isRequired,
   fetchMovie: propTypes.func.isRequired,
   setLoading: propTypes.func.isRequired,
   match: propTypes.objectOf(propTypes.any).isRequired,
   loading: propTypes.bool.isRequired,
 };
+
 const mapStateToProps = (state) => ({
   loading: state.movies.loading,
   movie: state.movies.movie,

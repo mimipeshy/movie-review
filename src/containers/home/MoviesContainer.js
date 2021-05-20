@@ -14,12 +14,17 @@ const MoviesContainer = (props) => {
     ))
     : null;
   return (
-    <div className="row">{content}</div>
+    <div className="row">
+      {content}
+    </div>
   );
 };
 
 MoviesContainer.propTypes = {
-  movies: propTypes.arrayOf(propTypes.object).isRequired,
+  movies: propTypes.oneOfType([
+    propTypes.array,
+    propTypes.object,
+  ]).isRequired,
 };
 
 const mapStateToProps = (state) => ({
