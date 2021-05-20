@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import propTypes from 'prop-types';
 import Searchform from './SearchForm';
 import Moviescontainer from './MoviesContainer';
-import Spinner from '../../containers/layout/Spinner';
+import Spinner from '../../components/layout/Spinner';
 
 const Landing = (props) => {
   const { loading } = props;

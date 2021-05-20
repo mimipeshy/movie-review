@@ -21,4 +21,3 @@ it('renders NavBar without crashing', () => {
     div,
   );
 });
-

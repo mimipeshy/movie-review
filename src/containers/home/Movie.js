@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import propTypes from 'prop-types';
 import { fetchMovie, setLoading } from '../../actions/searchActions';
-import Spinner from '../../containers/layout/Spinner';
+import Spinner from '../../components/layout/Spinner';
 
 class Movie extends Component {
   componentDidMount() {
