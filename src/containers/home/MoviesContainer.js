@@ -2,7 +2,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import propTypes from 'prop-types';
-import Moviecard from './MovieCard';
+import Moviecard from '../../components/MovieCard';
 
 const MoviesContainer = (props) => {
   const { movies } = props;
