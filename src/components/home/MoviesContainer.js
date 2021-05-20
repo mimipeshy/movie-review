@@ -19,7 +19,7 @@ const MoviesContainer = (props) => {
 };
 
 MoviesContainer.propTypes = {
-  movies: propTypes.objectOf(propTypes.any).isRequired,
+  movies: propTypes.arrayOf(propTypes.object).isRequired,
 };
 
 const mapStateToProps = (state) => ({

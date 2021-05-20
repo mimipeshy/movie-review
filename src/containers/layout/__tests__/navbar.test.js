@@ -5,25 +5,20 @@ import {
   Route,
 } from 'react-router-dom';
 import { cleanup } from '@testing-library/react';
-import renderer from 'react-test-renderer';
-import Footer from '../Footer';
 import '@testing-library/jest-dom/extend-expect';
+import Navbar from '../Navbar';
 
 afterEach(cleanup);
 
-it('renders footer without crashing', () => {
+it('renders NavBar without crashing', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<Footer />, div);
-  ReactDOM.unmountComponentAtNode(div);
-});
-
-it('matches footer snapshot', () => {
-  const foot = renderer.create(
+  ReactDOM.render(
     <Router>
       <Route>
-        <Footer />
+        <Navbar />
       </Route>
     </Router>,
-  ).toJSON();
-  expect(foot).toMatchSnapshot();
+    div,
+  );
 });
+

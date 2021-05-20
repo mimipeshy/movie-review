@@ -3,7 +3,7 @@
         height="230">
 </p>
 <p align="center">
-    <h1 align="center"> Catalogue of Movie Reviews  </h1>    
+    <h1 align="center"> Catalogue of Dog Clothes </h1>    
 </p>
 
 <p align="center">
